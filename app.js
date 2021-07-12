@@ -1,4 +1,14 @@
-const fs = require('fs')
+const notes = require('./notes')
 
-fs.appendFileSync('notes.txt', ' My name is Luiz Danilo')
+const not = notes(10)
 
+console.log(not)
+
+
+
+
+
+
+// const add = require('./utils')
+// const sum = add(4, 2)
+// console.log(sum)
